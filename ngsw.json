@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "timestamp": 1681135917569,
+  "index": "/pwasign/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwasign/favicon.ico",
+        "/pwasign/index.html",
+        "/pwasign/main.e0dbc640821ff879.js",
+        "/pwasign/manifest.webmanifest",
+        "/pwasign/polyfills.7bfbff6975468f4b.js",
+        "/pwasign/runtime.52ab9f424ddf6053.js",
+        "/pwasign/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwasign/assets/icons/icon-192x192.png",
+        "/pwasign/assets/icons/icon-256x256.png",
+        "/pwasign/assets/icons/icon-384x384.png",
+        "/pwasign/assets/icons/icon-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/pwasign/assets/icons/icon-192x192.png": "8bfd733e78564baa989ddb01e6e96b6d958637cc",
+    "/pwasign/assets/icons/icon-256x256.png": "179b6f2d7305e336da1ad16cf51a1f649d10e086",
+    "/pwasign/assets/icons/icon-384x384.png": "e9a24cd7a10f9adc2fca2111e155d8c8f81d731f",
+    "/pwasign/assets/icons/icon-512x512.png": "d068c336c4f0c4080ee5c4d04c70f723b0f3d615",
+    "/pwasign/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/pwasign/index.html": "ddcfbb5113ad75277cb01d37b7b892b7b9cd548f",
+    "/pwasign/main.e0dbc640821ff879.js": "a19bfe7d6e66391c7ff66169219c81b114928cd7",
+    "/pwasign/manifest.webmanifest": "ef4e1fc72201bffdf3681e236c9f264ffd182d59",
+    "/pwasign/polyfills.7bfbff6975468f4b.js": "d35438cc6fe095a10ba62ac4f5d01ede6dfe0b37",
+    "/pwasign/runtime.52ab9f424ddf6053.js": "2bb7343da6ee4af11409da990cbd6f0ccbddfab8",
+    "/pwasign/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
